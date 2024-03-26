@@ -17,9 +17,9 @@ void dump(void *addr, int n)
 int main()
 {
 
-    int i = 10000;
+    char p[] = "7509";
 
-    dump(&i, sizeof(i));
+    dump(p, sizeof(p));
 
     return 0;
 }
